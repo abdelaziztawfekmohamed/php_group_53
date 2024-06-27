@@ -10,15 +10,15 @@
 <body>
     
 
-<ul>
+<ul style="display: flex; gap: 50px; list-style: none; margin-bottom: 5px">
     <li>
-        <a href="index.php">Home</a>
+        <a href="index.php" style="text-decoration: none">Home</a>
     </li>
     <li>
-        <a href="contact.php">contact</a>
+        <a href="contact.php" style="text-decoration: none">contact</a>
     </li>
     <li>
-        <a href="products.php">products</a>
+        <a href="products.php" style="text-decoration: none">products</a>
     </li>
 </ul>
 
