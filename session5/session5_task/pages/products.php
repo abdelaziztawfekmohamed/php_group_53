@@ -9,15 +9,15 @@ include "../assets/include/header.php";
         <div class="card w-75 mb-3">
                 <div class="card-body">
                     <h5 class="card-title">
-                        <?php echo  $products[$key]['name']; ?>
+                        <?php echo  $product['name']; ?>
                     </h5>
                     <p class="card-text">
                         price :
-                        <?php echo $products[$key]['price']; ?>
+                        <?php echo $product['price']; ?>
                     </p>
                     <a  href="#" class="btn btn-primary">
                         color :
-                        <?php echo $products[$key]['clr']; ?>
+                        <?php echo $product['clr']; ?>
                     </a>
                 </div>
             </div>
