@@ -1,17 +1,32 @@
 <?php
 include "../assets/include/header.php";
 ?>
-<h1>home page</h1>
+<h3>home page</h3>
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../assets/img/Emerald Lake - Credit Suran Gaw, Adobe Stock-2.jpg" class="d-block w-100" alt="...">
+      <img
+          src="../assets/img/Emerald Lake - Credit Suran Gaw, Adobe Stock-2.jpg"
+          class="d-block w-100"
+          alt="img1"
+          style="height : 500px ; object-fit : cover"
+      >
     </div>
     <div class="carousel-item">
-      <img src="../assets/img/img1.jpg" class="d-block w-100" alt="...">
+      <img 
+          src="../assets/img/img1.jpg" 
+          class="d-block w-100" 
+          alt="img2" 
+          style="height : 500px ; object-fit : cover"
+      >
     </div>
     <div class="carousel-item">
-      <img src="../assets/img/img2.png" class="d-block w-100" alt="...">
+      <img 
+          src="../assets/img/img2.png" 
+          class="d-block w-100" 
+          alt="img3"
+          style="height : 500px ; object-fit : cover"
+      >
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
