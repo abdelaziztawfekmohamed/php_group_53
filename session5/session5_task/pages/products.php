@@ -5,7 +5,7 @@ include "../assets/include/header.php";
 <h1>product page</h1>
 <div>
     <?php include '../assets/include/data.php';     ?>
-    <?php foreach ($products as $key => $product) : ?>
+    <?php foreach ($products as $product) : ?>
         <div class="card w-75 mb-3">
                 <div class="card-body">
                     <h5 class="card-title">
